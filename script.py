@@ -15,3 +15,6 @@ q = [[2, 3, 4], [4, 5, 4]]
 for i in range(2):
     for j in range(3):
         print(q[i][j])
+
+x = list(input().split())
+print(x)
