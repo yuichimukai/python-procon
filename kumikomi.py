@@ -65,3 +65,46 @@ print(list(set(x)))
 
 
 # 組み込み関数
+# 長さ
+z = "Hello"
+print(len(z))
+
+# sorted
+# ソートは昇順
+print(sorted(x))
+
+# 降順にする場合
+print(sorted(x)[::-1])
+
+# 最大値
+print(max(2, 3))
+print(max(x, y, z))
+
+# 最小値
+print(min(2, 3))
+
+# 合計値
+print(sum(x))
+
+# 数字和
+#sum(map(int, 整数の文字列データ))
+print(sum(map(int, str(x))))
+
+# 絶対値
+x = -1
+print(abs(x))
+
+# 代入文
+x, y = 1, 2
+print(x, y)
+
+# 累算代入文
+a += b
+a -= b
+a *= b
+.etc
+
+# オブジェクトの型かくにん
+print(type(x))
+
+x = (1, 2, 3, 4) < - tuple
