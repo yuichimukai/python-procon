@@ -18,3 +18,5 @@ for i in range(2):
 
 x = list(input().split())
 print(x)
+
+x = [int(input()) for i in range(5)]
